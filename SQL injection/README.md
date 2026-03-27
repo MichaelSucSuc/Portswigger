@@ -1,6 +1,8 @@
+#Primer modulo
+
 Para ver los productos ocultos de una pagina, el -- comenta lo que segúia del Query, entonces no hay nada despues
 
-´´´
+´´´sql
 ?category=Gifts'--
 ´´´
 
